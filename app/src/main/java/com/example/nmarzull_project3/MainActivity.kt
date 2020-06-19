@@ -8,7 +8,7 @@ import android.widget.*
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
-    var input = LinkedList<String>()
+    var input = ArrayList<String>()
     lateinit var tray: String
     var decimal: Boolean = false
 
